@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SHO</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <h1 class="labels">শক্তির নিত্যতা সূত্র</h1>
+    <br/><br/><br/><br/>
+    <h4 class="labels">খুঁজে পাচ্ছেন তো?</h4>
+    <br/><br/>
+    <p class="labels">- কাদামাটি</p>
+
+
+
+  <div id="view">
+    <div id="ball"></div>
+  </div>
+  <div id="controller">
+    <p>বিস্তার, a
+      <input type="range" id="amplitudeSlider" min="0" max="200">
+    </p>
+    <p>কৌণিক কম্পাঙ্ক, w
+      <input type="range" id="angularFreqSlider" min="0" max="100">
+    </p>
+    <p id="description">
+
+    </p>
+    <div>
+      <p id="EP" class="progBar">
+        বিভবশক্তি
+      </p>
+      <h3>শক্তি</h3>
+      <p id="EK" class="progBar bgDarkBlue">
+        গতিশক্তি
+      </p>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="./src/main.js"></script>
+</body>
+</html>

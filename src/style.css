@@ -1,0 +1,36 @@
+#ball {
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  margin: auto
+}
+
+.blueBall {
+  background-color: rgba(149, 184, 201,0.2);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+}
+#controller{
+  top: 90px;
+  position: absolute;
+}
+.progBar{
+  background-color: rgb(162, 53, 184);
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+}
+.bgDarkBlue{
+  background-color: mediumturquoise
+}
+.labels{
+  float: right;
+  margin-right: 200px;
+}
